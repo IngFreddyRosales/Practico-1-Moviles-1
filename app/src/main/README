@@ -1,0 +1,8 @@
+Usar el alertDialog para 2 cosas:
+    1. Para crear una nueva nota
+        1.2. Los lista de colores en el alertDialog de crear nota sera el mismo que el del actualizar nota es
+        decir que se debe reutilizar el mismo alertDialog
+
+    2. Para actualizar una nota habra un boton de actualizar en todas las notas listadas en la pantalla
+
+

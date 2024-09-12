@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnWhite"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFFFF"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnRed"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnGreen"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FF00"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnBlue"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#0080FF"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnYellow"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#FFFF00"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnOrange"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFF"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnPink"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#fd3db5"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnPurple"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#898989"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnNavyBlue"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#000000"
+                android:text="Button" />
+
+            <Button
+                android:id="@+id/btnTurquoise"
+                android:layout_width="35dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:backgroundTint="#929292"
+                android:text="Button" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btnSaveItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar" />
+
+</LinearLayout>
